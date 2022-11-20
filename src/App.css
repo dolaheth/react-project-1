@@ -1,0 +1,156 @@
+#root {
+  width: auto;
+  height: auto;
+  margin: auto;
+  padding: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;  
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+
+main {
+  width: 550px;
+  height: 868px;
+  background-color: #23252C;
+  margin-top: 53px;
+  margin-bottom: 53px;
+}
+
+.dollah {
+  height: 317px;
+  width: 317px;
+  border-radius: 10px 10px 0px 0px;
+  margin-top: 44px;
+  
+}
+
+.content {
+  width: 317px;
+  height: 399px;
+  margin-left: 116px;
+  margin-right: 116px;
+  background-color: #1A1B21;
+  border-radius: 0px 0px 10px 10px;
+} 
+
+.name {
+  color: white;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.occupation {
+  font-weight: 400;
+  font-size: 12.8px;
+  color: #F3BF99;
+}
+
+.website a{
+  font-weight: 400;
+  font-size: 10.24px;
+  color: #F5F5F5;
+  text-decoration: none;
+}
+.button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.email-box {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 9px 13px 9px 11px;
+gap: 8px;
+width: 115px;
+height: 34px;
+/* white */
+
+background: #FFFFFF;
+/* gray/300 */
+
+border: 1px solid #D1D5DB;
+/* shadow/sm */
+
+box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+border-radius: 6px;
+}
+
+.email-box a{
+  color: black;
+  text-decoration: none;
+}
+
+.linkedin-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 13px 9px 11px;
+  gap: 8px;
+  width: 115px;
+  height: 34px;
+  /* white */
+  
+  background: #FFFFFF;
+  /* gray/300 */
+  
+  border: 1px solid #D1D5DB;
+  /* shadow/sm */
+  
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  } 
+
+.linkedin-box a{
+  color: black;
+   text-decoration: none;
+}
+.protfolio {
+  text-align: left;
+  width: 247px;
+  height: 201px;
+  margin: 24px 36px;
+}
+
+.protfolio-title{
+  font-weight: 700;
+font-size: 16px;
+color: #F5F5F5;
+}
+
+.protfolio-elaboration {
+  font-weight: 400;
+  font-size: 10.24px;
+  color: #DCDCDC;
+}
+
+.social {
+  width: 317px;
+  height: 64px;
+  background-color: #161619;
+  border-radius: 0px 0px 10px 10px;
+
+  display: flex;
+  justify-content: center;
+}
+
+.social ion-icon {
+  font-size: 40px;
+  color: white;
+  margin: 8px;
+}
+
+.social ion-icon:hover {
+  font-size: 50px;
+}
