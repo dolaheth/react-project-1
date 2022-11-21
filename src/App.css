@@ -114,6 +114,7 @@ border-radius: 6px;
   } 
 
 .linkedin-box a{
+  color: white;
    text-decoration: none;
 }
 .protfolio {
@@ -153,4 +154,8 @@ color: #F5F5F5;
 
 .social ion-icon:hover {
   font-size: 50px;
+}
+
+.protfolio2 {
+  margin-top: 20px;
 }

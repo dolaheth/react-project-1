@@ -23,42 +23,37 @@ function App() {
           </button>
         <button className='linkedin-box'>
         <ion-icon name="logo-linkedin"></ion-icon>
-          LinkedIn
+          <a href="https://www.linkedin.com/in/mohammed-abdullah-adnan-872a38226/">LinkedIn</a>
           </button>
       </div>
       <div className="protfolio">
         <div className="protfolio1">
           <h1 className='protfolio-title'>About</h1>
-          <p className='protfolio-elaboration'>Lorem, ipsum dolor sit amet consec
-            Lorem ipsum dolor sit amet, consectetur 
-            adipisicing elit. Cupiditate corrupti voluptates 
-            aperiam eaque quam veniam natus, eius amet nam rep
-            reprehenderit illum necessitatibus officia!
+          <p className='protfolio-elaboration'>
+            I'm 21 years old. I'm a self-learn to web 3 developer. I'm currently honing my Javascript skills and Solidity.
           </p>
         </div>
         <div className="protfolio2">
           <h1 className='protfolio-title'>Interest</h1>
-          <p className='protfolio-elaboration'>Lorem, ipsum dolor sit amet consec
-            Lorem ipsum dolor sit amet, consectetur 
-            adipisicing elit. Cupiditate corrupti voluptates 
-            aperiam eaque quam veniam natus, eius amet nam rep
-            reprehenderit illum necessitatibus officia!
+          <p className='protfolio-elaboration'>
+            Im interested in cryptocurrency  and have a bunch of asset in both hot wallet and cold wallet. I also have NFT project as its call Afric Guild. 
+            I love to play sport like running ad going to the gym. I also love to go hiking during leisure time. 
           </p>
         </div>
       </div>
       <div className="social">
         <div>
-      <ion-icon name="logo-twitter"></ion-icon>
-      </div>
-      <div>
-      <ion-icon name="logo-instagram"></ion-icon>
-      </div>
-      <div>
-      <ion-icon name="logo-facebook"></ion-icon>
-      </div>
-      <div>
-      <ion-icon name="logo-github"></ion-icon>
-      </div>
+          <a href="https://twitter.com/dolah___"><ion-icon name="logo-twitter"></ion-icon></a>
+        </div>
+        <div>
+          <a href="https://www.instagram.com/dolah.eth/"> <ion-icon name="logo-instagram"></ion-icon></a>
+        </div>
+        <div>
+          <a href="https://www.facebook.com/FIFAH11/"><ion-icon name="logo-facebook"></ion-icon></a> 
+        </div>
+        <div>
+          <a href="https://github.com/dolaheth"> <ion-icon name="logo-github"></ion-icon></a>
+        </div>
       </div>
       
     </div>
